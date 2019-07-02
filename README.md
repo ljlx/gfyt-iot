@@ -1,6 +1,6 @@
 # 说明 
 
-[//]:<> (#### [更详细的设计文档请参照此处](docs/README.MD))
+
 
 [//]:<> (https://go-iot.github.io/gfyt-iot)
 
