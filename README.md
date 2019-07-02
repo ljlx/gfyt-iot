@@ -1,8 +1,8 @@
 # 说明 
 
-#### [更详细的设计文档请参照此处](docs/README.MD)
+[//]:<> (#### [更详细的设计文档请参照此处](docs/README.MD)
 
-https://go-iot.github.io/gfyt-iot
+[//]:<> (https://go-iot.github.io/gfyt-iot)
 
 [1.设备表设计](docs/publish/1.设备表设计.html)  
 [2.点位设备流程图](docs/publish/gfyt-iot.html)  
