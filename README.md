@@ -1,4 +1,9 @@
-# gfyt-iot
+# 说明 
 
-[1.设备表设计](doc/publish/1.设备表设计.html)  
-[2.点位设备流程图](doc/publish/gfyt-iot.html)
+#### Documents
+[更详细的设计文档请参照此处](https://go-iot.github.io/gfyt-iot/doc/)
+
+#### Usage
+
+#### Get Start
+
