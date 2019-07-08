@@ -1,0 +1,1 @@
+DROP DATABASE gfyt_iot;

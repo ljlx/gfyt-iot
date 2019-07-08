@@ -1,0 +1,30 @@
+CREATE TABLE IF NOT EXISTS gfyt_iot.test_a (
+	id INT AUTO_INCREMENT PRIMARY KEY COMMENT 'a表id',
+	col1 INT NOT NULL COMMENT 'a表字段1',
+	col2 VARCHAR(10) NOT NULL COMMENT 'a表字段2'
+)
+	ENGINE 'InnoDB'
+	COMMENT '测试demo表'
+;
+
+CREATE TABLE IF NOT EXISTS gfyt_iot.test_b (
+	id INT AUTO_INCREMENT PRIMARY KEY COMMENT 'b表id',
+	aid INT NOT NULL COMMENT '外键约束-a表id',
+	col1 INT NOT NULL COMMENT 'b表字段1',
+	col2 VARCHAR(10) NOT NULL COMMENT 'b表字段2'
+)
+	ENGINE 'InnoDB'
+	COMMENT '测试b表'
+;
+
+CREATE TABLE IF NOT EXISTS gfyt_iot.test_c (
+	id INT AUTO_INCREMENT PRIMARY KEY COMMENT 'c表id',
+	bid INT COMMENT '外键约束-b表id',
+	col1 INT NOT NULL COMMENT 'c表字段1',
+	col2 VARCHAR(10) NOT NULL COMMENT 'c表字段2'
+)
+	ENGINE 'InnoDB'
+	COMMENT '测试c表'
+;
+
+# 关系需要由同名_key.sql文件来编写创建.
